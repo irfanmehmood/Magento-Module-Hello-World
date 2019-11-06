@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+		<helloworld_index_sayhello>
+			<reference name="content">
+				<block type="helloworld/sayhello" name="block_sayhello" template="helloworld/sayhello.phtml" />
+			</reference>
+		</helloworld_index_sayhello>
+</layout>
+

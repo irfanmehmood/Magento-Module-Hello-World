@@ -1,0 +1,2 @@
+<h2>Say Hello</h2>
+<?php $this->sayHello(); ?>

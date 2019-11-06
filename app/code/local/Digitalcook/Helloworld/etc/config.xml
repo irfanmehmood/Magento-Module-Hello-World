@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Digitalcook_Helloworld>
+			<version>0.0.2</version>
+		</Digitalcook_Helloworld>
+	</modules>
+	<global>
+		<blocks>
+			<helloworld>
+				<class>Digitalcook_Helloworld_Block</class>
+			</helloworld>
+		</blocks>
+		<helpers>
+			<helloworld>
+				<class>Digitalcook_Helloworld_Helper</class>
+			</helloworld>
+		</helpers>
+		<models>
+			<helloworld>
+				<class>Digitalcook_Helloworld_Model</class>
+			</helloworld>
+		</models>
+	</global>
+	<frontend>
+		<routers>
+			<helloworld>
+			<use>standard</use>
+			<args>
+				<module>Digitalcook_Helloworld</module>
+				<frontName>helloworld</frontName>
+			</args>
+			</helloworld>
+		</routers>
+		<layout>
+			<updates>
+				<helloworld>
+					<file>helloworld.xml</file>
+				</helloworld>
+			</updates>
+		</layout>
+	</frontend>
+	
+</config>
+
+

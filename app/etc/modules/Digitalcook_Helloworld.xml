@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Digitalcook_Helloworld>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Digitalcook_Helloworld>
+	</modules>
+</config>
+

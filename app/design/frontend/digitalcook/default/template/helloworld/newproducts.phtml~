@@ -1,0 +1,2 @@
+<h2>New Products</h2>
+<?php $this->getProducts(); ?>
